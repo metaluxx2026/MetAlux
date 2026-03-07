@@ -23,7 +23,7 @@ const IMAGENES = {
   tablaroca: [
     // Pon aquí los nombres de tus imágenes de tablaroca
     // Ejemplo:
-    // { src: "img/tablaroca_1.jpg", alt: "División de tablaroca" },
+     { src: "img/29a6dc8a-0bbf-4326-b97e-46ea5927c250.jpeg", alt: "Decoracion de tablaroca" },
     // { src: "img/tablaroca_2.jpg", alt: "Plafón terminado" },
   ],
 };
