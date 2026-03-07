@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MetAlux | Herrería y Tablaroca</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <!-- HERO -->
+    <header class="hero">
+      <div class="hero__content">
+        <img src="img/logo.jpeg" alt="Logo MetAlux" class="hero__logo" />
+        <p>
+          Expertos en <strong>herrería</strong> y <strong>tablaroca</strong> para
+          hogares, negocios y proyectos industriales.
+        </p>
+        <div class="hero__btns">
+          <a class="btn" href="#servicios">Ver servicios</a>
+          <a class="btn btn--outline" href="#contacto">Cotizar ahora</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- SERVICIOS -->
+      <section class="section" id="servicios">
+        <h2 class="section__title">Servicios</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon">⚒</div>
+            <h3>Herrería</h3>
+            <p>Puertas, ventanas, portones, estructuras metálicas y diseños personalizados con acabados de alta calidad.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">🪵</div>
+            <h3>Tablaroca</h3>
+            <p>Muros, plafones, divisiones, remodelaciones y soluciones rápidas para espacios funcionales y elegantes.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">📐</div>
+            <h3>Diseño a medida</h3>
+            <p>Cada proyecto es único. Asesoramos y diseñamos soluciones adaptadas a tu espacio y presupuesto.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- GALERÍA HERRERÍA -->
+      <section class="section" id="galeria-herreria">
+        <h2 class="section__title">Galería — Herrería</h2>
+        <p class="section__sub">Trabajos realizados en puertas, portones, ventanas y estructuras metálicas.</p>
+        <div class="gallery" id="gallery-herreria">
+          <!-- Las imágenes se generan desde script.js -->
+        </div>
+      </section>
+
+      <!-- GALERÍA TABLAROCA -->
+      <section class="section" id="galeria-tablaroca">
+        <h2 class="section__title">Galería — Tablaroca</h2>
+        <p class="section__sub">Muros, plafones y divisiones instalados con precisión y estilo.</p>
+        <div class="gallery" id="gallery-tablaroca">
+          <!-- Las imágenes se generan desde script.js -->
+        </div>
+      </section>
+
+      <!-- LIGHTBOX -->
+      <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada">
+        <button class="lightbox__close" id="lb-close" aria-label="Cerrar">&times;</button>
+        <button class="lightbox__arrow lightbox__arrow--prev" id="lb-prev" aria-label="Anterior">&#8249;</button>
+        <img class="lightbox__img" id="lb-img" src="" alt="Imagen ampliada" />
+        <button class="lightbox__arrow lightbox__arrow--next" id="lb-next" aria-label="Siguiente">&#8250;</button>
+        <p class="lightbox__caption" id="lb-caption"></p>
+      </div>
+
+      <!-- POR QUÉ METALUX -->
+      <section class="section" id="nosotros">
+
+        <!-- Encabezado con declaración de valor -->
+        <div class="about-header">
+          <div class="about-header__text">
+            <h2 class="section__title">¿Por qué elegir MetAlux?</h2>
+            <p class="about-intro">
+              En <strong>MetAlux</strong> combinamos la solidez del acero con la precisión del diseño.
+              Somos especialistas en herrería artesanal y sistemas de tablaroca, con un enfoque profesional
+              orientado a resultados que superan las expectativas de nuestros clientes.
+            </p>
+            <p class="about-intro">
+              Cada obra que entregamos lleva el sello de nuestra dedicación: materiales de primera,
+              tiempos cumplidos y un servicio humano, cercano y transparente de principio a fin.
+            </p>
+          </div>
+          <!-- Estadísticas -->
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat__num">+500</span>
+              <span class="stat__label">Proyectos entregados</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">+8</span>
+              <span class="stat__label">Años de experiencia</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">100%</span>
+              <span class="stat__label">Clientes satisfechos</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">24h</span>
+              <span class="stat__label">Respuesta a cotizaciones</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pilares -->
+        <div class="reasons">
+          <div class="reason">
+            <span class="reason__icon">🏗️</span>
+            <div>
+              <strong>Trayectoria y experiencia real</strong>
+              <p>Más de 8 años ejecutando proyectos residenciales, comerciales e industriales nos dan la solidez técnica para afrontar cualquier reto constructivo con confianza y precisión.</p>
+            </div>
+          </div>
+          <div class="reason">
+            <span class="reason__icon">🔩</span>
+            <div>
+              <strong>Materiales certificados de alto rendimiento</strong>
+              <p>Utilizamos acero estructural, perfiles galvanizados y tablaroca de marcas reconocidas. Cada material es seleccionado para garantizar resistencia, durabilidad y un acabado impecable.</p>
+            </div>
+          </div>
+          <div class="reason">
+            <span class="reason__icon">📐</span>
+            <div>
+              <strong>Soluciones personalizadas y a medida</strong>
+              <p>No ofrecemos soluciones genéricas. Analizamos tu espacio, escuchamos tu visión y diseñamos propuestas que se adaptan con precisión a tus necesidades y presupuesto.</p>
+            </div>
+          </div>
+          <div class="reason">
+            <span class="reason__icon">⏱️</span>
+            <div>
+              <strong>Puntualidad y compromiso con los plazos</strong>
+              <p>Sabemos que tu tiempo es valioso. Establecemos fechas de entrega realistas y las cumplimos, manteniendo el área de trabajo limpia y organizada en todo momento.</p>
+            </div>
+          </div>
+          <div class="reason">
+            <span class="reason__icon">🤝</span>
+            <div>
+              <strong>Relación directa, honesta y sin sorpresas</strong>
+              <p>Trabajamos sin intermediarios. Desde el primer contacto hasta la entrega final recibes información clara, precios justos y acompañamiento profesional en cada etapa del proyecto.</p>
+            </div>
+          </div>
+          <div class="reason">
+            <span class="reason__icon">🛡️</span>
+            <div>
+              <strong>Garantía en mano de obra y materiales</strong>
+              <p>Respaldamos cada trabajo entregado. Si algo no cumple con lo acordado, lo resolvemos sin costo adicional, porque nuestra reputación se construye proyecto a proyecto.</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- COTIZACIÓN / CONTACTO -->
+      <section class="section" id="contacto">
+        <h2 class="section__title">Solicitar Cotización</h2>
+        <p class="section__sub">
+          Cuéntanos sobre tu proyecto y en menos de 24 horas te contactamos con una propuesta sin costo.
+        </p>
+
+        <div class="quote-wrapper">
+
+          <!-- FORMULARIO -->
+          <form class="quote-form" id="quoteForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre completo <span class="req">*</span></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required />
+              </div>
+              <div class="form-group">
+                <label for="telefono">Teléfono / WhatsApp <span class="req">*</span></label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ej. 312 000 0000" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="servicio">Tipo de servicio <span class="req">*</span></label>
+              <select id="servicio" name="servicio" required>
+                <option value="" disabled selected>Selecciona un servicio…</option>
+                <option value="herreria">Herrería — Puertas, portones, ventanas</option>
+                <option value="tablaroca">Tablaroca — Muros, plafones, divisiones</option>
+                <option value="ambos">Herrería + Tablaroca</option>
+                <option value="otro">Otro / Consulta general</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Describe tu proyecto <span class="req">*</span></label>
+              <textarea id="mensaje" name="mensaje" rows="4"
+                placeholder="Ej. Necesito un portón de 3 m con diseño moderno para cochera…" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-submit">
+              Enviar solicitud por WhatsApp
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="18" height="18">
+                <path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.737 5.469 2.027 7.77L0 32l8.454-2.007A15.938 15.938 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm8.09 22.09c-.34.956-1.99 1.826-2.74 1.942-.699.108-1.584.153-2.556-.16a23.3 23.3 0 01-2.314-.856c-4.073-1.758-6.73-5.85-6.933-6.119-.202-.269-1.647-2.19-1.647-4.18 0-1.99 1.044-2.97 1.415-3.37a1.5 1.5 0 011.09-.51c.27 0 .54.003.777.015.249.012.584-.095.914.697.34.82 1.153 2.81 1.254 3.013.1.202.168.437.033.704-.135.27-.202.437-.404.673-.202.236-.425.528-.607.709-.202.202-.412.42-.177.823.236.404 1.047 1.726 2.247 2.797 1.543 1.375 2.844 1.8 3.248 2.002.404.202.64.168.876-.101.236-.27 1.011-1.18 1.28-1.585.27-.404.54-.337.91-.202.37.135 2.35 1.108 2.754 1.31.404.202.674.303.774.471.1.168.1.97-.24 1.926z"/>
+              </svg>
+            </button>
+          </form>
+
+          <!-- DATOS DE CONTACTO -->
+          <aside class="quote-aside">
+            <h3>Contáctanos directamente</h3>
+            <a class="aside-card" href="https://wa.me/3123481597" target="_blank" rel="noopener noreferrer">
+              <div class="aside-card__icon wa-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="24" height="24">
+                  <path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.737 5.469 2.027 7.77L0 32l8.454-2.007A15.938 15.938 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm8.09 22.09c-.34.956-1.99 1.826-2.74 1.942-.699.108-1.584.153-2.556-.16a23.3 23.3 0 01-2.314-.856c-4.073-1.758-6.73-5.85-6.933-6.119-.202-.269-1.647-2.19-1.647-4.18 0-1.99 1.044-2.97 1.415-3.37a1.5 1.5 0 011.09-.51c.27 0 .54.003.777.015.249.012.584-.095.914.697.34.82 1.153 2.81 1.254 3.013.1.202.168.437.033.704-.135.27-.202.437-.404.673-.202.236-.425.528-.607.709-.202.202-.412.42-.177.823.236.404 1.047 1.726 2.247 2.797 1.543 1.375 2.844 1.8 3.248 2.002.404.202.64.168.876-.101.236-.27 1.011-1.18 1.28-1.585.27-.404.54-.337.91-.202.37.135 2.35 1.108 2.754 1.31.404.202.674.303.774.471.1.168.1.97-.24 1.926z"/>
+                </svg>
+              </div>
+              <div>
+                <span>WhatsApp</span>
+                <strong>312 348 1597</strong>
+              </div>
+            </a>
+            <a class="aside-card" href="mailto:metaluxx2026@gmail.com">
+              <div class="aside-card__icon mail-icon">✉️</div>
+              <div>
+                <span>Correo electrónico</span>
+                <strong>metaluxx2026@gmail.com</strong>
+              </div>
+            </a>
+            <div class="aside-note">
+              <strong>⏱ Respuesta rápida</strong>
+              <p>Atendemos de lunes a sábado de 8 am a 6 pm. Tu cotización es completamente gratuita.</p>
+            </div>
+          </aside>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span data-current-year></span> MetAlux. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- BOTÓN FLOTANTE WHATSAPP -->
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/3123481597"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Contactar por WhatsApp"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="28" height="28">
+        <path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.737 5.469 2.027 7.77L0 32l8.454-2.007A15.938 15.938 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm8.09 22.09c-.34.956-1.99 1.826-2.74 1.942-.699.108-1.584.153-2.556-.16a23.3 23.3 0 01-2.314-.856c-4.073-1.758-6.73-5.85-6.933-6.119-.202-.269-1.647-2.19-1.647-4.18 0-1.99 1.044-2.97 1.415-3.37a1.5 1.5 0 011.09-.51c.27 0 .54.003.777.015.249.012.584-.095.914.697.34.82 1.153 2.81 1.254 3.013.1.202.168.437.033.704-.135.27-.202.437-.404.673-.202.236-.425.528-.607.709-.202.202-.412.42-.177.823.236.404 1.047 1.726 2.247 2.797 1.543 1.375 2.844 1.8 3.248 2.002.404.202.64.168.876-.101.236-.27 1.011-1.18 1.28-1.585.27-.404.54-.337.91-.202.37.135 2.35 1.108 2.754 1.31.404.202.674.303.774.471.1.168.1.97-.24 1.926z"/>
+      </svg>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
