@@ -23,7 +23,7 @@ const IMAGENES = {
   tablaroca: [
     // Pon aquí los nombres de tus imágenes de tablaroca
     // Ejemplo:
-    { src: "img/Muebles para TV 1.JPG", alt: "Mueble de Tv" },
+    { src: img/Muebles para TV 1.JPG , alt:  Mueble de Tv  },
     // { src: "img/tablaroca_2.jpg", alt: "Plafón terminado" },
   ],
 };
