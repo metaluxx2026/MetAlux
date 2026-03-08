@@ -24,7 +24,13 @@ const IMAGENES = {
     // Pon aquí los nombres de tus imágenes de tablaroca
     // Ejemplo:
     { src: "img/Muebles para TV 1.JPG", alt: "Mueble de Tv" },
-    // { src: "img/tablaroca_2.jpg", alt: "Plafón terminado" },
+    { src: "img/Muebles para TV 2  .JPG", alt: "Mueble de Tv" },
+    { src: "img/Muebles para TV3 Tablaroca .JPG", alt: "Mueble de Tv" },
+    { srt: "img/Muebles para TV4 de Tablaroca .PNG", alt: "Mueble de Tv" },
+    { srt: "img/Cocina 1 de Tablaroca .JPG", alt: "Cocina de Tablaroca y Lambrim" },
+    { src: "img/Clóset 1 Tablaroca .JPG", alt: "Closet de Tablaroca" },
+    { src: "img/Cabecera 2 de Tablaroca .JPG", alt: "Cabecera de Tablaroca" },
+    { src: "img/Cabecera 1 de Tablaroca .JPG", alt: "Cabecera de Tablaroca 1" },
   ],
 };
 
